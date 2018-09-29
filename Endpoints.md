@@ -10,11 +10,13 @@
 		"name":"",
 		"last_name":"",
 		"password:""
-	}```
+	}
+	```
 	```javascript
 	{
 		above except password
-	}``
+	}
+	```
 
 ##### /user/login
 gives a token
@@ -24,12 +26,14 @@ gives a token
 	{
 	"phone_number":"",
 	"password":""
-	}```
+	}
+	```
 	```javascript
 		{
 		"user_id":""
 		token : ""
 		}
+		```
 
 
 ##### /module/all
@@ -41,4 +45,9 @@ list of all modules connected to an account
        "user_id:"",
        "token":"",
        }
+       ```
 
+##### /module/send
+
+
+##### /module/news
