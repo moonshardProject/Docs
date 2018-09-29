@@ -3,7 +3,7 @@
 
 ##### /user/register
 ###### POST
-	```json
+	```javascript
 	{
 		"email":"",
 		"phone_number":"",
@@ -11,7 +11,7 @@
 		"last_name":"",
 		"password:""
 	}```
-	```json
+	```javascript
 	{
 		above except password
 	}``
@@ -20,12 +20,12 @@
 gives a token
 ###### POST
 
-	```json
+	```javascript
 	{
 	"phone_number":"",
 	"password":""
 	}```
-	```json
+	```javascript
 		{
 		"user_id":""
 		token : ""
@@ -36,7 +36,7 @@ gives a token
 list of all modules connected to an account
 ###### POST 
 
-       ```json 
+       ```javascript
        {
        "user_id:"",
        "token":"",
